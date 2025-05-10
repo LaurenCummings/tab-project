@@ -1,8 +1,10 @@
 import './App.css'
-
-const url = 'https://course-api.com/react-tabs-project';
+import data from './data';
 
 function App() {
+
+  console.log(data);
+
 
   return (
     <div>
