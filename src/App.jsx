@@ -7,7 +7,7 @@ function App() {
   const [jobs, setJobs] = useState(data);
   const [value, setValue] = useState(0);
 
-  const {company, dates, duties, title} = jobs[value];
+  const { company, dates, duties, title } = jobs[value];
 
   return (
     <section className="section">
@@ -17,6 +17,15 @@ function App() {
       </div>
       <div className="jobs-center">
         {/* btn container */}
+        <div className="btn-container">
+          {
+            jobs.map((item, index) => {
+              return <button>
+                {item.company}
+              </button>
+            })
+          }
+        </div>
         {/* job info */}
         <article className="job-info">
           <h3>{title}</h3>
