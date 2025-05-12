@@ -26,6 +26,13 @@ body {
     align-items: center;
 }
 
+.job-icon {
+    color: rgb(21, 168, 226);
+    height: 15px;    
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
 .job-desc p {
     margin: 10px 20px;
 }
