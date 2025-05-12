@@ -20,11 +20,13 @@ body {
     display: flex;
     margin: 20px auto;
     width: 90%;
+    max-width: 900px;
 }
 
 .btn-container {
     text-align: center;
     margin-right: 40px;
+    max-width: 150px;
 }
 
 .job-btn {
@@ -47,6 +49,10 @@ body {
     color: rgb(21, 168, 226);
     border: 2px rgb(21, 168, 226);
     border-style: none none none solid;
+}
+
+.job-info {
+    width: 600px;
 }
 
 .job-info h3 {
