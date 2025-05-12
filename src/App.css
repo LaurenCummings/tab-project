@@ -14,3 +14,9 @@ body {
     width: 50px;
     margin: 0 auto;
 }
+
+.jobs-center {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+}
