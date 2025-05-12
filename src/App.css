@@ -33,6 +33,14 @@ body {
     margin-top: 15px;
     font-weight: 600;
     padding-left: 30px;
+    width: 90px;
+}
+
+.job-btn:hover {
+    color: rgb(21, 168, 226);
+    border: 2px rgb(21, 168, 226);
+    border-style: none none none solid;
+    cursor: pointer;
 }
 
 .active-btn {
