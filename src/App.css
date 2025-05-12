@@ -20,3 +20,12 @@ body {
     margin: 20px auto;
     width: 90%;
 }
+
+.job-desc {
+    display: flex;
+    align-items: center;
+}
+
+.job-desc p {
+    margin: 10px 20px;
+}
