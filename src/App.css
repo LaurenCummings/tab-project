@@ -31,6 +31,14 @@ body {
     background-color: transparent;
     border: none;
     margin-top: 15px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.active-btn {
+    color: rgb(21, 168, 226);
+    border: 2px rgb(21, 168, 226);
+    border-style: none none none solid;
 }
 
 .job-info h3 {
